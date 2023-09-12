@@ -1,1 +1,2 @@
-# Geolocation_Categorized_Cluster_Loss
+# Learning Visual Representation Clusters for Cross-View Geo-Location
+
