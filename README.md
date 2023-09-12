@@ -1,0 +1,1 @@
+# Light_OSNet_Categorized_Cluster_Loss
