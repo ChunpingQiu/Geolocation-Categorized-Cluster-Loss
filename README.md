@@ -5,7 +5,7 @@ Cross-view geo-location is crucial for drone navigation in GNSS-denied environme
 To reproduce the results, please download [University-1652](https://github.com/layumi/University1652-Baseline) dataset.
 ### Preparation
 Our methodology is based on a single-branch network, employing [OSnet](https://github.com/KaiyangZhou/deep-person-reid) pre-trained on ImageNet to extract the feature map. 
-If you want to use the pre-trained model as well,, you can download it from OSnet's [Model Zoo](https://kaiyangzhou.github.io/deep-person-reid/MODEL_ZOO.html).
+If you want to use the pre-trained model as well, you can download it from OSnet's [Model Zoo](https://kaiyangzhou.github.io/deep-person-reid/MODEL_ZOO.html).
 ## Train & Evaluation
 ### Train
 ```  
