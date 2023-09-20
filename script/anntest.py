@@ -66,17 +66,7 @@ if __name__ == "__main__":
     cfg=LoadConfig(os.path.join(logdir,"config.pkl"))
     print(cfg)
     cfg.transforms="default"
-    if cfg.Method=="LPN":
-        model = build_model(cfg, 701).cuda()
-        for i in range(cfg.block):
-            cls_name = 'classifier' + str(i)
-            c = getattr(model, cls_name)
-            c.classifier = nn.Sequential()
-    elif cfg.Method=="ANN":
-        model = build_model(cfg, 701).cuda()
-    else:
-
-        model = build_model(cfg, 701).cuda()
+    model = build_model(cfg, 701).cuda()
 
     model.load_state_dict(torch.load(os.path.join(logdir, 'weights', '130_model.pth')))
 
