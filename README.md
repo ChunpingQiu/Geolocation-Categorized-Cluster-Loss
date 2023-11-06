@@ -22,5 +22,13 @@ script/evaluate_gpu.py
 ## Cite:
 If you use this code for your research, please cite:
 ```
-
+@ARTICLE{10288351,
+  author={Song, Haoshuai and Wang, Zhen and Lei, Yi and Shi, Dianxi and Tong, Xiaochong and Lei, Yaxian and Qiu, Chunping},
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={Learning Visual Representation Clusters for Cross-View Geo-Location}, 
+  year={2023},
+  volume={20},
+  number={},
+  pages={1-5},
+  doi={10.1109/LGRS.2023.3326005}}
 ```
